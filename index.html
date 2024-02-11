@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsubscribe Form</title>
+</head>
+<body>
+    <h2>Reason to Unsubscribe</h2>
+    <form action="submit_response.php" method="post">
+        <input type="radio" id="reason1" name="unsubscribe_reason" value="Too many emails">
+        <label for="reason1">Too many emails</label><br>
+        <input type="radio" id="reason2" name="unsubscribe_reason" value="Content not relevant">
+        <label for="reason2">Content not relevant</label><br>
+        <input type="radio" id="reason3" name="unsubscribe_reason" value="Found alternative service">
+        <label for="reason3">Found alternative service</label><br>
+        <!-- Add more reasons as needed -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
